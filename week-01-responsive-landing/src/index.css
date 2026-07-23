@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-canvas text-ink font-body antialiased;
+}
+
+/* Signature element: the flow-line that runs behind the hero's task cards,
+   with a dot travelling along it to represent a task moving through stages. */
+.flow-line {
+  stroke-dasharray: 8 8;
+}
+
+.flow-dot {
+  offset-path: path('M 10 60 C 150 10, 300 110, 440 60 S 700 10, 830 60');
+  animation: travel 6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flow-dot {
+    animation: none;
+    offset-distance: 50%;
+  }
+}
+
+@keyframes travel {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+/* Visible keyboard focus, kept consistent across interactive elements */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0EA5A4;
+  outline-offset: 2px;
+}
