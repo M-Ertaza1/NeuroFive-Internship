@@ -43,9 +43,7 @@ export default function App() {
   return (
     <div className="min-h-screen">
       <header className="max-w-6xl mx-auto px-6 pt-12 pb-8">
-        <span className="inline-block font-mono text-xs tracking-wide text-teal bg-teal-light px-3 py-1 rounded-full mb-4">
-          WEEK 1 · TASK 2
-        </span>
+        
         <h1 className="font-display font-700 text-3xl md:text-4xl tracking-tight">
           Reeler — Movie Explorer
         </h1>
