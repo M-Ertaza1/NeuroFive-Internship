@@ -5,7 +5,7 @@ internship: a frontend app that fetches and displays live data from a public
 API (TMDB), with loading, error, and empty states, plus a live search filter.
 
 ## Live demo
-[Add your Vercel/Netlify URL here after deploying]
+https://neuro-five-internship-cq34.vercel.app/
 
 ## Features
 - Fetches popular movies from TMDB on load
