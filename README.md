@@ -8,6 +8,7 @@ Projects completed during my Full Stack Web Development internship at
 | 1 | Responsive UI from a design brief | React, Tailwind CSS | [Live](https://neuro-five-internship.vercel.app/) | [`week-01-responsive-landing`](./week-01-responsive-landing) |
 | 1 | Task 2: Live data with a public API | React, TMDB API | [Live](https://neuro-five-internship-cq34.vercel.app/) | [week-01-task-02-movie-explorer](./week-01-task-02-movie-explorer) |
 | 2 | Task 1: Full-stack CRUD (NoteFlow) | React, Express, MongoDB | [Live](#) | [week-02-task-01-noteflow](./week-02-task-01-noteflow) |
+| 2 | Task 2: Authentication (NoteFlow + Auth) | React, Express, MongoDB, JWT | [Live](#) | [week-02-task-02-noteflow-auth](./week-02-task-02-noteflow-auth) |
 
 Each folder is a standalone project with its own README, dependencies, and
 setup instructions.
