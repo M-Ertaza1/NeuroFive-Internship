@@ -11,6 +11,9 @@ Projects completed during my Full Stack Web Development internship at
 | 2 | Task 2: Authentication (NoteFlow + Auth) | React, Express, MongoDB, JWT | [Live](#) | [week-02-task-02-noteflow-auth](./week-02-task-02-noteflow-auth) |
 | 3 | Task 1: Multi-field form with validation | React, Express, MongoDB, Multer | [Live](#) | [week-03-task-01-job-application](./week-03-task-01-job-application) |
 | 3 | Task 2: Global state refactor (Zustand) | React, Zustand, Express, MongoDB, JWT | [Live](#) | [week-03-task-02-noteflow-zustand](./week-03-task-02-noteflow-zustand) |
+| 4 | Task 1: File upload with Cloudinary | React, Express, MongoDB, Cloudinary | [Live](#) | [week-04-task-01-doc-uploader](./week-04-task-01-doc-uploader) |
+| 4 | Task 2: Dashboard with charts & filters | React, Chart.js, Express, MongoDB | [Live](#) | [week-04-task-02-sales-dashboard](./week-04-task-02-sales-dashboard) |
+
 Each folder is a standalone project with its own README, dependencies, and
 setup instructions.
 
