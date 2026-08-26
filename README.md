@@ -13,6 +13,7 @@ Projects completed during my Full Stack Web Development internship at
 | 3 | Task 2: Global state refactor (Zustand) | React, Zustand, Express, MongoDB, JWT | [Live](#) | [week-03-task-02-noteflow-zustand](./week-03-task-02-noteflow-zustand) |
 | 4 | Task 1: File upload with Cloudinary | React, Express, MongoDB, Cloudinary | [Live](#) | [week-04-task-01-doc-uploader](./week-04-task-01-doc-uploader) |
 | 4 | Task 2: Dashboard with charts & filters | React, Chart.js, Express, MongoDB | [Live](#) | [week-04-task-02-sales-dashboard](./week-04-task-02-sales-dashboard) |
+| 5 | Task 1: Automated test suite (unit + E2E) | Vitest, React Testing Library, Supertest, Playwright | [Live](#) | [week-05-task-01-noteflow-tested](./week-05-task-01-noteflow-tested) |
 
 Each folder is a standalone project with its own README, dependencies, and
 setup instructions.
