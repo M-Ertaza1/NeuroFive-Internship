@@ -6,8 +6,9 @@ deployed frontend and backend, a Lighthouse audit with real fixes applied,
 SEO essentials, and cross-device verification.
 
 ## Live URLs
-- **Frontend**: [Add your Vercel URL here]
-- **Backend API**: [Add your Render/Railway URL here]
+## Live URLs
+- **Frontend**: https://neuro-five-internship-ew65-2sagx7r8n-ertaza.vercel.app
+- **Backend API**: https://neurofive-internship-production-7d0d.up.railway.app
 
 ## Architecture overview
 ```
@@ -33,15 +34,13 @@ The frontend never talks to Cloudinary or MongoDB directly — all of that
 goes through the backend, which is the only place holding those credentials.
 
 ## Lighthouse audit — before / after
-| Metric | Before | After | What changed |
-|--------|--------|-------|---------------|
-| Performance | *(fill in your before score)* | *(after)* | Manual code-splitting so React ships in its own cached chunk; `loading="lazy"` on gallery images so off-screen images don't block initial load |
-| SEO | *(before)* | *(after)* | Added `<title>`, meta description, and Open Graph tags (previously only had a generic title) |
-| Accessibility | *(before)* | *(after)* | Added `alt` text to every image, `aria-label`s on icon-only buttons, `role="alert"` on error messages, keyboard support (Enter key) on the drag-and-drop zone |
-| Best Practices | *(before)* | *(after)* | Added a favicon (was previously missing, causing a console 404) |
-
-*(Run Lighthouse yourself on the deployed URL — DevTools → Lighthouse tab,
-or pagespeed.web.dev — and fill in your real before/after numbers here.)*
+## Lighthouse audit — before / after
+| Metric | Score |
+|--------|-------|
+| Performance | 99 |
+| Accessibility | 94 |
+| Best Practices | 100 |
+| SEO | 60 → fixed with a `robots.txt` file (Vercel was serving the SPA's `index.html` for `/robots.txt` instead of a valid robots file) |
 
 ## SEO essentials added
 - Descriptive `<title>` and `<meta name="description">`

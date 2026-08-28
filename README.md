@@ -14,6 +14,7 @@ Projects completed during my Full Stack Web Development internship at
 | 4 | Task 1: File upload with Cloudinary | React, Express, MongoDB, Cloudinary | [Live](#) | [week-04-task-01-doc-uploader](./week-04-task-01-doc-uploader) |
 | 4 | Task 2: Dashboard with charts & filters | React, Chart.js, Express, MongoDB | [Live](#) | [week-04-task-02-sales-dashboard](./week-04-task-02-sales-dashboard) |
 | 5 | Task 1: Automated test suite (unit + E2E) | Vitest, React Testing Library, Supertest, Playwright | [Live](#) | [week-05-task-01-noteflow-tested](./week-05-task-01-noteflow-tested) |
+| 5 | Task 2: Deployed, audited & optimized (Doc Uploader) | React, Express, MongoDB, Cloudinary, Railway, Vercel | [Live](https://neuro-five-internship-ew65-2sagx7r8n-ertaza.vercel.app) | [week-05-task-02-doc-uploader-shipped](./week-05-task-02-doc-uploader-shipped) |
 
 Each folder is a standalone project with its own README, dependencies, and
 setup instructions.
