@@ -7,8 +7,9 @@ Kanban boards, file attachments, search & filtering, a stats dashboard, and
 dark mode.
 
 ## Live URLs
-- **Frontend**: [Add your Vercel URL here]
-- **Backend API**: [Add your Railway URL here]
+## Live URLs
+- **Frontend**: https://neuro-five-internship-14dk.vercel.app
+- **Backend API**: https://neurofive-internship-production-2b85.up.railway.app
 
 ## The problem
 Small teams often reach for a spreadsheet or a group chat to track tasks,
